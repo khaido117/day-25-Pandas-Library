@@ -1,6 +1,7 @@
 import pandas
 import os  
 os.chdir("/Users/khaido/Library/CloudStorage/GoogleDrive-khaitroyy@gmail.com/My Drive/Code/day-25-Pandas-Library/Squirrel")
+print(os.getcwd())
 
 #Count squirrel color.
 data = pandas.read_csv("squirrel_report.csv")
